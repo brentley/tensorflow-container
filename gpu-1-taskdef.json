@@ -1,0 +1,28 @@
+{
+    "containerDefinitions": [
+        {
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-group": "test-task-tensorflow-gpu",
+                    "awslogs-region": "us-east-2",
+                    "awslogs-stream-prefix": "tensorflow-gpu"
+                }
+            },
+            "cpu": 1024,
+            "resourceRequirements": [
+                {
+                    "type": "GPU",
+                    "value": "1"
+                }
+            ],
+            "image": "brentley/tensorflow-gpu:latest",
+            "essential": true,
+            "name": "tensorflow-gpu"
+        }
+    ],
+    "memory": "6144",
+    "family": "tensorflow-1-gpu",
+    "cpu": "1024",
+    "placementConstraints": []
+}
