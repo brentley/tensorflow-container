@@ -2,7 +2,7 @@
 
 This is a sample tensorflow container used to test cpu and gpu support on ECS.
 
-See corresponding blog post: 
+See corresponding blog post: https://aws.amazon.com/blogs/compute/scheduling-gpus-for-deep-learning-tasks-on-amazon-ecs/
 
 ```
 export PATH=$HOME/.local/bin:$HOME/bin:$PATH >> ~/.bash_profile
