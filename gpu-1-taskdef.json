@@ -16,7 +16,7 @@
                     "value": "1"
                 }
             ],
-            "image": "brentley/tensorflow-gpu:latest",
+            "image": "brentley/tensorflow-gpu:8904d11",
             "essential": true,
             "name": "tensorflow-gpu"
         }
